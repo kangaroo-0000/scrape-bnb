@@ -231,10 +231,10 @@ if __name__ == "__main__":
     options.add_argument("--enable-javascript")
     # options.add_argument("--headless")
     try:
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         # prompt for email and password
         email = input("Enter email: ")
         password = getpass.getpass("Enter password: ")
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         bot = AirdnaBot(email, password, driver)
         print("logging in...")
         bot.login()
