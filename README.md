@@ -9,7 +9,9 @@ Before getting started, please ensure that you have Docker installed on your mac
 To download Docker, follow the instructions for your operating system:
 
 [Docker for Windows](https://www.docker.com/products/docker-desktop)
+
 [Docker for Mac](https://www.docker.com/products/docker-desktop)
+
 [Docker for Linux](https://www.docker.com/products/docker-desktop)
 
 ## Getting Started
