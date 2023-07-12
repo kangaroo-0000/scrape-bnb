@@ -39,7 +39,7 @@ class City:
 
 
 class AirdnaBot:
-    def __init__(self, username, password, driver):
+    def __init__(self, username: str, password: str, driver: webdriver.Chrome):
         self.username = username
         self.password = password
         self.driver = driver
@@ -109,8 +109,7 @@ class AirdnaBot:
             city.zipcode_list = zipcodes
 
 
-    def scrape(self, city_name, input_zipcode):
-        # TODO: click on the city and zipcode to reveal airbnb dots
+    def scrape(self, city_name: str, input_zipcode: str):
         # verify if city name is in City list:
         city = next((city for city in self.cities if city.city.lower() == city_name.lower()), None)
         if city is None:
