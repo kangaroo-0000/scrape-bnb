@@ -4,8 +4,7 @@ This is a tool that helps with market analysis. It utilizes Docker for easy setu
 
 ## Prerequisites
 
-Before getting started, please ensure that you have Docker installed on your machine. Docker allows you to run applications in isolated containers, making it easy to package and distribute software.
-
+Before getting started, please ensure that you have Docker installed on your machine. 
 To download Docker, follow the instructions for your operating system:
 
 [Docker for Windows](https://www.docker.com/products/docker-desktop)
