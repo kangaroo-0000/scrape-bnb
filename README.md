@@ -15,7 +15,7 @@ To download Docker, follow the instructions for your operating system:
 
 ## Getting Started
 
-1. Clone this repository to your local machine using the following command:
-2. Change into the project directory:
-3. Build the Docker image by running the following command:
-4. Once the image is built, you can run the Docker container with the following command:
+1. Clone this repository to your local machine using the following command: `git clone https://github.com/kangaroo-0000/scrape-bnb.git`
+3. Change into the project directory.
+4. Build the Docker image by running the following command: `make build`
+5. Once the image is built, you can run the Docker container with the following command: `make run`
